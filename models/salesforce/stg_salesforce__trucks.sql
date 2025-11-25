@@ -54,4 +54,4 @@ trucks_and_truck_orders_joined AS (
 
 )
 
-SELECT * FROM trucks_and_truck_orders_joined
+SELECT * FROM {{source('salesforce','trucks')}}
